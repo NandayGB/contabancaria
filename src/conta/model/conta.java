@@ -79,6 +79,7 @@ public abstract class conta {
         }
 
         System.out.println("**************************");
+        System.out.println("Bem vindo ao Banco Nanbank");
         System.out.println("Dados da conta");
         System.out.println("**************************");
         System.out.println("Número da conta: " + this.numero);
