@@ -11,20 +11,20 @@ public class model_Conta {
 	
 	
 	
-	////método construtor - que constrói o objeto | tem o mesmo nome da classe | dá p/ ter mais de um |
+	
 	public Conta(int numero, int agencia, int tipo, String titular, float saldo) {
-		this.numero = numero; // o que está depois do = é o argumento do meu método
+		this.numero = numero; 
 		this.agencia = agencia;
 		this.tipo = tipo;
 		this.titular = titular;
 		this.saldo = saldo;
 	}
 	
-	public int getNumero() { // get retorna o valor do atributo, logo ele possui o mesmo valor = int retorna int 
+	public int getNumero() {  
 		return numero;
 	}
 
-	public void setNumero(int numero) { // set é void, não irá retornar nada, irá alterar o atributo
+	public void setNumero(int numero) { 
 		this.numero = numero;
 	}
 
@@ -60,7 +60,7 @@ public class model_Conta {
 		this.saldo = saldo;
 	}
 	
-	//metodo sacar
+	
 	public boolean sacar(float valor) {
 		if (this.saldo < valor)
 			return false;
@@ -74,7 +74,6 @@ public class model_Conta {
 	}
 	
 	
-	//metodo para visualizar todos os dados do objeto de uma única vez
 	
 	public void visualizar() {
 		
